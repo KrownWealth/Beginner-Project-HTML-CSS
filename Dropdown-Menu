@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Drop-down Menu </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(aloevera.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.main-menu {
+    background-color: green;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.main-menu ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+
+.main-menu ul li{
+    width: 150px;
+    margin:15px;
+    padding: 20px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .main-menu ul li :hover {
+    background: #2bab0d;
+    border-radius: 2px;
+}
+
+.main-menu .fa {
+    margin-right: 5px;
+}
+
+.sub-main-menu-1 {
+    display: none;
+}
+
+.main-menu ul li:hover .sub-main-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.main-menu ul li:hover .sub-main-menu-1 ul {
+    display: block;
+    margin: 15px;
+}
+
+.main-menu ul li:hover .sub-main-menu-1 ul li {
+    width: 150px;
+    padding: 20px;
+    border-bottom: 2px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+    
+
+}
+
+.main-menu ul li:hover .sub-main-menu-1 ul li :last-child {
+    border-bottom: none;
+
+}
+</style>
+</head>
+
+<body>
+<div class="main-menu">
+    <ul>
+        <li class="active"> <a href="#">  <i class="fa fa-home"></i> Home </a> </li>  
+      <!-- this is the sub-main-menu-2-->  
+        <li> <a href="#">  <i class="fa fa-cutlery"></i> Menu </a>
+             <div class="sub-main-menu-1">
+                  <ul>
+                      <li>   <a href="#"> Chopfit </a> </li>
+                       <li>  <a href="#">  Appetizers</a></li>
+                       <li>  <a href="#"> Proteins</a> <li>
+
+                       </ul>
+                    </div>
+                </li>
+
+        <li>  <a href="#"> <i class="fa fa-clone"></i>Services </a></li>
+
+        <!-- this is sub-main-menu-1-->
+            <li> <a href="#">  <i class="ffa fa-user"></i> About</a> 
+                 <div class="sub-main-menu-1">
+                     <ul>
+                          <li>   <a href="#"> Vision </a> </li>
+                          <li>  <a href="#">  Mission</a></li>
+                          <li>  <a href="#"> Core Values</a><li>
+
+                          </ul>
+                        </div>
+                    </li>
+
+
+
+        
+        <li>   <a href="#"> <i class="fa fa-phone"> </i> Contact </i>
+        </a></li>
+        
+    </ul>
+</div>
+</body>
+</html>
