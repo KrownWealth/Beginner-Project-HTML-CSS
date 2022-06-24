@@ -1,0 +1,74 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width" initial-scaled="1.0" user-scalable="no" />
+<title> Survey Form 1 </title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="./CSS/Surveyform.css">
+<body>
+<body>
+    <!--- This is heading-->
+<div class="heading">
+    <h1 id="head"> Survey Form </h1>
+    <!-- this is subheading-->
+    <h2 id="subheading"> <i> Let us know how we can improve our Services   </i> </h2>
+
+</div>
+<!--- this is where form begin-->
+        <form>
+                <div id="content1">
+                <label for="name"> Name: </label> <br> <br>
+               <input type="text" name="name" placeholder="Enter your name" class="box"> <br> <br>
+              <label for="email"> Email: </label> <br> <br> 
+              <input type="email" name="email" placeholder="Enter your email" class="box"> <br> <br>
+             <label for="age"> Age: </label>   <br> <br>
+            <input type="date" name="bday" placeholder="Age" class="box"> <br> <br>
+             <label>  Which option best describes your current role? </label> <br> <br> 
+
+           <div id="option1">
+            <select>
+                <option name="Select Your Role"> Select Your Role </option> 
+                <option value="Student"> Student</option>
+                <option value="Full Employed"> Full Employed</option>
+                <option value="Part-Time Worker"> Part-Time Worker</option>
+                <option value="Other"> Other </option> 
+            </select>     
+            </div>
+            <br>
+            <label id="head1"> Would you recommend CrownWealth Store to a friend?</label> <br> <br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinitely <br> <br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMaybe <br> <br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNot Sure <br> <br>
+            
+            <label> What is your favourite CrownWealth Products?</label> <br>
+            <div id="option2">
+                <select>
+                    <option name="select an option"> Select an option </option>
+                    <option value="Sneakers"> Sneakers </option>
+                    <option value="Slides"> Slides </option>
+                    <option value="Jumpsuit"> Jumpsuit</option>
+                    <option value="Baggy Jean"> Baggy Jean </option> 
+                
+                </select>
+            </div>
+            <br> <br>
+        
+            <label id="head2"> What would you like to see Improved? ( Check all that apply) </label> <br> <br>
+            <div id="content2">
+                <input type="checkbox" name="checkbox" class="larger"> <label> Mode of Delivery</label>&nbsp&nbsp&nbsp <br> <br>
+                <input type="checkbox" name="checkbox" class="larger"> <label> Customer Service </label>&nbsp&nbsp&nbsp <br> <br>
+                <input type="checkbox" name="checkbox" class="larger"> <label> Store Update</label>&nbsp&nbsp&nbsp <br><br>
+                <input type="checkbox" name="checkbox" class="larger"> <label> Online Marketing</label>&nbsp&nbsp&nbsp <br> <br> 
+            </div>
+            
+            <!---- This is comment/suggestion with submit button-->
+            
+            <label id="head2"> Any comments or suggestions</label><br><br>
+            <textarea placeholder="Enter Your Comments Here..."></textarea> <br>
+            <button> <h3> Submit</h3></button>
+        
+        </form>
+       </body>
+       </html>
+

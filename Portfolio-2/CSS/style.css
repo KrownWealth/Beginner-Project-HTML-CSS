@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(9, 9, 19);
+}
+
+.side-nav ul {
+  width: 20%;
+  background-color: rgb(16, 16, 29);
+  height: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.side-nav ul li {
+  position: center;
+  padding-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.side-nav ul li a {
+  text-align: center;
+  color: gray;
+  list-style-type: none;
+  text-decoration: none;
+}
+.side-nav ul li a:hover {
+  color: white;
+}
+.side-nav h2 {
+  color: white;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.side-nav img {
+  width: 130px;
+  height: 130px;
+  margin-left: 40px;
+}
+
+.side-nav .fa {
+  color: white;
+  padding-top: 20px;
+  margin-left: 10px;
+  font-size: larger;
+}
+
+.side-nav ul li a .fa:hover {
+  color: blue;
+}
+
+.content {
+  margin-left: 20%;
+  background-color: rgb(9, 9, 19);
+  padding: 1px 20px;
+  height: 100%;
+}
+
+.page {
+  min-height: 100vh;
+  height: auto;
+  padding: 10px 10px;
+  border-radius: 10px blue;
+}
+
+.main {
+  min-height: 100vh;
+
+  font-size: 20px;
+  color: #555;
+}
+
+.row {
+  flex-direction: column;
+}
+
+.col {
+  min-height: 100vh;
+  background-color: rgb(9, 9, 19);
+}
+
+.main-homepage {
+  min-height: 100vh;
+  padding: 10px;
+  font-size: 20px;
+  background-image: url(bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  color: rgb(9, 9, 19);
+  opacity: 0.8;
+}
+
+.main-homepage h4 {
+  padding-top: 160px;
+  padding-left: 90px;
+  font-style: oblique;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.main-homepage h1 {
+  color: rgb(5, 5, 97);
+  padding-top: 10px;
+  padding-left: 80px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.main-homepage a {
+  border: 20px white;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, rgb(44, 44, 236), rgb(5, 5, 97));
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+.main-homepage a:hover {
+  background-color: blue;
+  color: #212121;
+}
+.main-homepage p {
+  color: #f1f1f1;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 180px;
+  padding-left: 250px;
+}
+
+.columns {
+  float: left;
+  width: 50%;
+  padding-top: 40px;
+  padding: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-about {
+  min-height: 160vh;
+  padding: 20px;
+  font-size: 20px;
+  color: #555;
+  background-color: rgb(9, 9, 19);
+}
+
+.main-about img {
+  width: 350px;
+  height: 450px;
+  box-shadow: 10px 10px rgb(9, 9, 19);
+  padding-top: 20px;
+}
+
+.columns h2 {
+  font-size: 25px;
+  padding-top: 40px;
+  color: white;
+}
+
+.columns p {
+  text-align: justify;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.columns .hire2 {
+  border: 10px white;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, rgb(44, 44, 236), rgb(5, 5, 97));
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  margin-top: 100px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.columns .resume {
+  border: 2px solid white;
+  border-radius: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(9, 9, 19);
+  color: white;
+  padding: 5px;
+  margin: 10px;
+}
+
+.main-about h2 {
+  padding-top: 40px;
+  padding: 30px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-about ul img {
+  position: center;
+}
+
+.main-about ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+  list-style-position: center;
+}
+
+.main-about ul li img {
+  width: 100px;
+  height: 100px;
+}
+
+/*portfolio starts here*/
+.main-portfolio {
+  min-height: 350vh;
+  padding: 20px;
+  color: white;
+  background-color: rgb(9, 9, 19);
+}
+
+.main-portfolio h2 {
+  padding-top: 40px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-portfolio h3 {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.main-portfolio img {
+  width: 300px;
+  height: 300px;
+  box-shadow: -10px 10px white;
+  padding: 10px;
+  border: 2px;
+  border-radius: 25px;
+}
+
+.main-portfolio ul {
+  text-align: center;
+}
+
+.main-portfolio ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.main-portfolio .hire2 {
+  border: 10px white;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, rgb(44, 44, 236), rgb(5, 5, 97));
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  margin-top: 100px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.columns .hire3 {
+  text-decoration: none;
+}
+
+/* Float four columns side by side  for services*/
+.columns-2 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 blue;
+  transition: 0.3s;
+  width: 80%;
+  align-items: center;
+  border: 20px blue;
+  border-radius: 5px solid green;
+  padding: 20px;
+}
+
+.card .fa {
+  color: white;
+}
+
+.card h3 {
+  font-weight: bold;
+  padding-top: 0px;
+}
+.card p {
+  padding-top: 10px;
+}
+
+/*contact section here*/
+
+.main-contact {
+  min-height: 120vh;
+  padding: 10px;
+  color: white;
+  background-color: rgb(53, 53, 155);
+  border-radius: 100px 100px 0px 0px;
+}
+
+.main-contact h2 {
+  padding-top: 40px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.columns-3 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.columns-3 h3 {
+  font-size: 25px;
+}
+
+.columns-3 p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.columns-3 ul {
+  padding-top: 20px;
+  list-style-type: none;
+}
+.columns-3 ul li {
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.main-contact .MyForm {
+  padding-top: 20px;
+  justify-content: center;
+}
+.MyForm {
+  background-color: rgb(80, 80, 226);
+  border-radius: 20px;
+  height: 300px;
+}
+
+.MyForm .box {
+  width: 80%;
+  height: 3em;
+  border: 1px;
+  border-radius: 5px;
+  background-color: rgb(9, 9, 19);
+}
+
+.Myform ::placeholder {
+  font-size: 12px;
+  padding: 10px;
+  color: white;
+  align-items: center;
+}
+
+.MyForm button {
+  padding: 10px;
+  background-color: rgb(9, 9, 19);
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  border-radius: 10px;
+}
+
+.MyForm button a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.footer p {
+  text-align: center;
+  padding-top: 60px;
+}

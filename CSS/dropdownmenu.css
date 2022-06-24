@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(aloevera.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.main-menu {
+    background-color: green;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.main-menu ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+
+.main-menu ul li{
+    width: 150px;
+    margin:15px;
+    padding: 20px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .main-menu ul li :hover {
+    background: #2bab0d;
+    border-radius: 2px;
+}
+
+.main-menu .fa {
+    margin-right: 5px;
+}
+
+.sub-main-menu-1 {
+    display: none;
+}
+
+.main-menu ul li:hover .sub-main-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.main-menu ul li:hover .sub-main-menu-1 ul {
+    display: block;
+    margin: 15px;
+}
+
+.main-menu ul li:hover .sub-main-menu-1 ul li {
+    width: 150px;
+    padding: 20px;
+    border-bottom: 2px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+    
+
+}
+
+.main-menu ul li:hover .sub-main-menu-1 ul li :last-child {
+    border-bottom: none;
+
+}

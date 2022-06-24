@@ -1,0 +1,69 @@
+
+body{
+    background-color: rgb(200, 250, 247);
+    background-size: cover;
+    font-size: 1.1em;
+    font-family: 'poppins', 'sans-serif';
+
+    
+
+    }
+
+    .heading{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        margin: 100px;
+        background-color: blue;
+        
+    }
+
+    #head {
+        font-size: 1.6em;
+        color: white;
+    }
+
+    #subheading {
+        font-size: 18px;
+        margin-top: 10px;
+        color: white;
+    }
+
+    #content {
+        width: 90%;
+        margin: auto;
+    }
+
+    form {
+        background-color: white;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55%;
+        border-radius: 5px;
+        margin: auto;
+        margin-top: 10px;
+        padding-bottom: 60px;
+    }
+
+    form .box {
+        width: 99%;
+        height: 3em;
+        position: relative;
+        bottom: 10px;
+        border-radius: 5px solid black;
+        
+    }
+
+    option select {
+        width: 99%;
+        height: 3em;
+        position: relative;
+        bottom: 10px;
+        border-radius: 5px;
+        border: 0;
+    }
+
+    
+

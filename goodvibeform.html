@@ -1,0 +1,63 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Good Vibe Form </title>
+</head>
+<link rel="stylesheet" type="text/css" href="./CSS/goodvibeform.css">
+
+<body>
+    <div class="heading">
+
+        <h2 div id="head"> Good Vibe Form </h2>
+        <h3 div id="subheading"> Tell us something positive that happened to you today</h3>
+        </div>
+
+        <!-- form begin here-->
+        <form>
+            <div id="content">
+            <label for="name" > Name </label> <br> <br> <input type="text" name="name" placeholder="Enter your name" class="box"> <br> <br>
+            <label for ="email"> Email </label> <br> <br> <input type="text" name="email" placeholder="Enter your email" class="box"> <br> <br>
+            <label for="name"> On a scale of 1-10, how good was it?
+            </label> <br> <br> <input type="text" name="name"  placeholder="Enter a number between 1 and 10" class="box"> <br> <br>
+          
+            <label> Where did it happen?</label> <br>
+            <!-- this is an option to select button-->
+             <div id="option">
+                 <select>
+                     <option name="Select where it happen"> Select where it happen</option>
+                     <option value="At Home"> At home</option>
+                     <option value="At Work"> At work</option>
+                     <option value="At church"> At church</option>
+                     <option value=" At cinema"> At cinema</option>
+                     <option value="other"> Other</option>
+                 </select>
+             </div>
+             <br>
+
+            <!-- this is a radio button-->
+            <label> At what time of day did it happen?</label> <br> <br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMorning <br> <br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspAfternoon <br> <br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspEvening <br> <br>
+            
+            <!--this is a check box-->
+            <label> What emotions did you experience? (Select all that apply) </label> <br> <br>
+            <div id="content2">
+            <input type="checkbox" name="checkbox" class="larger">&nbsp&nbsp&nbspExcited<br><br>
+            <input type="checkbox" name="checkbox" class="larger">&nbsp&nbsp&nbspHumbled <br><br>
+            <input type="checkbox" name="checkbox" class="larger">&nbsp&nbsp&nbspElated <br><br>
+            <input type="checkbox" name="checkbox" class="larger">&nbsp&nbsp&nbspLoved <br><br>
+            <input type="checkbox" name="checkbox" class="larger">&nbsp&nbsp&nbspEnthusiastic <br><br>
+            <input type="checkbox" name="checkbox" class="larger">&nbsp&nbsp&nbspDepressed <br><br>
+            </div>
+
+            <label id="head2"> Please describe your positive experience.</label><br><br>
+            <textarea placeholder="Enter Your Experience Here..."></textarea> <br>
+            <button> <h3> Submit</h3></button>
+
+
+            </div>
+        </form>
+    
+</body>
