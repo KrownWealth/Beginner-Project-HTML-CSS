@@ -1,6 +1,6 @@
 
     body {
-        background-color: aquamarine;
+        background-color: rgb(234, 250, 245);
        background-size: cover;
        font-size: 1.1em;
        font-family: 'poppins', 'sans-serif';
@@ -16,22 +16,22 @@
     }
     
     
-    #head {
+    .head {
         font-size: 1.8em;
     }
     
-    #subheading {
+    .subheading {
     font-size: 18px;
     margin-top: 10px;
     }
     
-    #content1{
+    .content1{
         width: 90%;
         margin: auto;
      }
     
     form{
-       background-color: rgb(29, 199, 142);
+       background-color: white;
        padding-top: 34px;
        display: flex;
        align-items: center;
@@ -50,36 +50,26 @@
         position: relative;
         bottom: 10px;
         border-radius: 5px;
+        border: 1px solid black;
         
     }
      
-    
-    
-    
-    #option1 select {
+    .option1 select, .option2 select {
         width: 98.5%;
        height:2.7em;
        position: relative;
        bottom: 10px;
-       border: 0;
-       border-radius: 5px;
-    }
-    
-    #option2 select {
-        width: 98.5%;
-       height:2.7em;
-       position: relative;
-       top: 10px;
-       border: 0;
+       border: 1px solid black;
        border-radius: 5px;
     }
     
     
-    #content2 {
+    
+    .content2 {
         margin-top: 10px;
     }
     
-    #content2 textarea {
+    .content2 textarea {
         width: 98.5%;
         height: 125px;
         position: relative;
@@ -90,15 +80,24 @@
     button {
         width: 98.5%;
         height: 3em;
-        position: relative;
-        top: 11px;
-        background-color: rgb(1, 43, 29);
+        text-align: center;
+        font-size: 18px;
+        background-color:rgb(21, 165, 117);
         border: none;
-        color: rgb(223, 230, 227);
-        margin-bottom: 10px;
+        border-radius: 5px;
+        color:white;
+        margin-top: 10px;
         cursor: pointer;
+       
     }
     
+    textarea
+    {
+        width: 98.5%;
+        height: 50%;
+        border: 1px solid black;
+       
+    }
     textarea::placeholder {
         font-size: 1.4em;
         position: relative;
@@ -119,5 +118,19 @@
     input.larger {
         width: 20px;
         height: 20px;
- 
-    
+  }
+
+  /*styling the error message*/
+  .content1 span
+  {
+   
+   
+   
+    font-size: 16px;
+    color: red;
+  }
+
+  .content1 span i
+  {
+    color: seagreen;
+  }
