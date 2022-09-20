@@ -8,6 +8,7 @@ PROGRAMMING LANGUAGES USED
 4. JAVASCRIPTS
 
 AIM
+
 These Projects are aimed to building and sharpens my skills in web developement. Every projects here is built from scratch.
 
 OBJECTIVES
