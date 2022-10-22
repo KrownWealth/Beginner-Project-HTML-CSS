@@ -1,2 +1,12 @@
-# quote_gen
-Code Generator using Javascript
+# Random Quote Generator
+
+Aim: Genearte each new quote at random when new quote button is trigger
+
+# Programming Languages
+
+Html, CSS, and JavaScripts
+
+# Processes
+
+Fetching the quote api using the async fetch request and try catch
+
