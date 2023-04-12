@@ -1,6 +1,6 @@
 # Random Quote Generator
 
-Aim: Genearte each new quote at random when new quote button is trigger
+Aim: Generate each new quote at random when new quote button is trigger
 
 # Programming Languages
 
