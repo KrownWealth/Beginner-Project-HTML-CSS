@@ -1,6 +1,7 @@
 # Random Quote Generator
 
-Aim: Generate each new quote at random when new quote button is trigger
+Aim: Generate each new quote at random when new quote button is trigger.
+### Try it [here](https://krownwealth.github.io/quote_gen/)
 
 # Programming Languages
 
