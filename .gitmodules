@@ -1,0 +1,6 @@
+[submodule "quote_gen/foodie"]
+	path = quote_gen/foodie
+	url = https://github.com/KrownWealth/FoodiePhotography
+[submodule "FoodiePhotography"]
+	path = FoodiePhotography
+	url = https://github.com/KrownWealth/FoodiePhotography
